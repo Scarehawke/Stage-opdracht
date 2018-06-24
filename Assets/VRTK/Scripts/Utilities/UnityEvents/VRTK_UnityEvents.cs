@@ -19,9 +19,9 @@
             }
             else
             {
-                string eventsScriptName = GetType().Name;
-                string scriptName = component.GetType().Name;
-                VRTK_Logger.Error(string.Format("The {0} script requires to be attached to a GameObject that contains a {1} script.", eventsScriptName, scriptName));
+               // string eventsScriptName = GetType().Name;
+                //string scriptName = component.GetType().Name;
+                //VRTK_Logger.Error(string.Format("The {0} script requires to be attached to a GameObject that contains a {1} script.", eventsScriptName, scriptName));
             }
         }
 

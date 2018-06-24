@@ -61,9 +61,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CategoryScript.cs" />
-    <Compile Include="Assets\MenuObject.cs" />
+    <Compile Include="Assets\Item.cs" />
+    <Compile Include="Assets\Scripts\CategoryScript.cs" />
+    <Compile Include="Assets\Scripts\ItemScript.cs" />
     <Compile Include="Assets\Scripts\MenuController.cs" />
+    <Compile Include="Assets\Scripts\MenuObject.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
