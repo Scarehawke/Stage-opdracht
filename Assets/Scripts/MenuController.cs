@@ -6,6 +6,7 @@ using UnityEngine;
 public class MenuController : MonoBehaviour
 {
 
+    public int currentSelectedItem = -1;
     public int activeCategory = 0;
     public Text itemDescription;
     public GameObject[] itemObjects;
