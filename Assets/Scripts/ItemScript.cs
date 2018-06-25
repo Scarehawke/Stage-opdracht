@@ -8,11 +8,13 @@ public class ItemScript : VRTK_InteractableObject
 
     public GameObject uiObject;
     public int itemIndex;
+    public GameObject panelItem; 
 
     public override void StartUsing(VRTK_InteractUse usingObject)
     {
         base.StartUsing(usingObject);
 
+        panelItem.transform.Translate(0, 0, 0.05f);
 
         MenuController menu = uiObject.GetComponent<MenuController>();
 
@@ -36,6 +38,7 @@ public class ItemScript : VRTK_InteractableObject
     public override void StopUsing(VRTK_InteractUse usingObject)
     {
         base.StopUsing(usingObject);
+        panelItem.transform.Translate(0, 0, -0.05f);
     }
 
     protected void Start()

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 227135636}
-  m_IndirectSpecularColor: {r: 0.16991174, g: 0.2132726, b: 0.29093525, a: 1}
+  m_IndirectSpecularColor: {r: 0.18218304, g: 0.22788474, b: 0.30736738, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -89,7 +89,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 112000040, guid: 2047e1939603d7c49a036f03295385f3,
+  m_LightingDataAsset: {fileID: 112000040, guid: f045c8c4b21427046bf2caaa0451efa5,
     type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -1097,6 +1097,7 @@ MonoBehaviour:
   usingState: 0
   uiObject: {fileID: 1361163592}
   itemIndex: 0
+  panelItem: {fileID: 1779591138}
 --- !u!65 &363164820
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1267,6 +1268,7 @@ MonoBehaviour:
   usingState: 0
   uiObject: {fileID: 1361163592}
   itemIndex: 0
+  panelItem: {fileID: 1950940968}
 --- !u!65 &489289408
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1741,6 +1743,7 @@ MonoBehaviour:
   usingState: 0
   uiObject: {fileID: 1361163592}
   itemIndex: 0
+  panelItem: {fileID: 143615269}
 --- !u!65 &588646520
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1893,6 +1896,7 @@ MonoBehaviour:
   usingState: 0
   uiObject: {fileID: 1361163592}
   itemIndex: 0
+  panelItem: {fileID: 793070516}
 --- !u!65 &755069709
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3783,6 +3787,7 @@ MonoBehaviour:
   usingState: 0
   uiObject: {fileID: 1361163592}
   itemIndex: 0
+  panelItem: {fileID: 1082911477}
 --- !u!65 &1461510290
 BoxCollider:
   m_ObjectHideFlags: 0
