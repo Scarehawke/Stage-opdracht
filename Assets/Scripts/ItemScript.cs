@@ -29,7 +29,7 @@ public class ItemScript : VRTK_InteractableObject
         t.localPosition = Vector3.zero; // make it at the exact position of the spawner
         t.localRotation = Quaternion.identity; // same for rotation
         t.transform.localScale = menu.itemPrev.transform.localScale;
-        t.gameObject.name = "Preview Item";
+        t.gameObject.name = "Pc fan";
 
         menu.currentSelectedItem = itemIndex;
         menu.itemDescription.text = menu.menuI_c1[itemIndex].itemDesc;

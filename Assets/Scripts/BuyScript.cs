@@ -21,12 +21,12 @@ public class BuyScript : VRTK_InteractableObject
             return;
 
         var spawnedObject = Instantiate(menu.itemPrevObjects[menu.menuI_c1[menu.currentSelectedItem].IconImage], spawnPoint.gameObject.transform.localPosition, Quaternion.identity);
-        spawnedObject.transform.localScale = new Vector3(0.1F, 0.1F, 0.1F);
+        //spawnedObject.transform.localScale = new Vector3(0.1F, 0.1F, 0.1F);
         spawnedObject.transform.localPosition = spawnPoint.transform.localPosition;
         spawnedObject.transform.position = spawnPoint.transform.position;
 
 
-        //spawnedObject.gameObject.AddComponent<Rigidbody>();
+        spawnedObject.gameObject.AddComponent<Rigidbody>();
 
     }
 

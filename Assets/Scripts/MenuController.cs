@@ -31,12 +31,12 @@ public class MenuController : MonoBehaviour
 
         List<MenuItem> menuIitems = new List<MenuItem>();
 
-        menuIitems.Add(new MenuItem { id = 1, name = "PC Fan", itemDesc = "This is a awsome PC FAN\nLoads of derp-derp-derp in this\nthing", IconImage = 0, SpriteId = 0});
-        menuIitems.Add(new MenuItem { id = 2, name = "Awsome Cube", itemDesc = "This cube is amazing", IconImage = 1, SpriteId = 1});
-        menuIitems.Add(new MenuItem { id = 3, name = "Item #3", itemDesc = "Molre item desc " + Random.Range(0, 100000), IconImage = 0, SpriteId = 2});
+        menuIitems.Add(new MenuItem { id = 1, name = "PC Fan", itemDesc = "This is an awesome PC FAN\nLoads of derp-derp-derp in this\nthing", IconImage = 0, SpriteId = 0});
+        menuIitems.Add(new MenuItem { id = 2, name = "Bowling Ball", itemDesc = "This ballis amazing", IconImage = 1, SpriteId = 1});
+        menuIitems.Add(new MenuItem { id = 3, name = "Bowling pin", itemDesc = "Molre item desc " + Random.Range(0, 100000), IconImage = 0, SpriteId = 2});
 
         
-        menuIitems.Add(new MenuItem { id = 4, name = "Item #4", itemDesc = "Molre item desc " + Random.Range(0,100000), IconImage = 0, SpriteId = 2 });
+        menuIitems.Add(new MenuItem { id = 4, name = "Chess pawn", itemDesc = "Molre item desc " + Random.Range(0,100000), IconImage = 0, SpriteId = 2 });
         menuIitems.Add(new MenuItem { id = 5, name = "Item #5", itemDesc = "Molre item desc " + Random.Range(0,100000), IconImage = 0, SpriteId = 2 });
 
         menuIitems.Add(new MenuItem { id = 6, name = "Item #6", itemDesc = "Molre item desc " + Random.Range(0,100000), IconImage = 0, SpriteId = 2 });
